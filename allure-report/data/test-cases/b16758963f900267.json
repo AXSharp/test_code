@@ -1,0 +1,96 @@
+{
+  "uid" : "b16758963f900267",
+  "name" : "Sign up a with a new user",
+  "fullName" : "Oracle sign up test.Sign up a with a new user",
+  "historyId" : "2c5647f7252df186e5d0de57d4c7cd7f",
+  "time" : {
+    "start" : 1645799688699,
+    "stop" : 1645799693985,
+    "duration" : 5286
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: element (\".cb41create-btn\") still not displayed after 3000ms",
+  "statusTrace" : "Error: element (\".cb41create-btn\") still not displayed after 3000ms\n                    at D:\\softTest\\test_code\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at Element.wrapCommandFn (D:\\softTest\\test_code\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\softTest\\test_code\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\softTest\\test_code\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.wrapCommandFn (D:\\softTest\\test_code\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\softTest\\test_code\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\softTest\\test_code\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at NavigationTest.openOraclePage (D:\\softTest\\test_code\\features\\testobjects\\/NavigationTest.js:5:5)\n                    at World.<anonymous> (D:\\softTest\\test_code\\features\\step-definitions\\/navigationSteps.js:5:3)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: element (\".cb41create-btn\") still not displayed after 3000ms",
+    "statusTrace" : "Error: element (\".cb41create-btn\") still not displayed after 3000ms\n                    at D:\\softTest\\test_code\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at Element.wrapCommandFn (D:\\softTest\\test_code\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\softTest\\test_code\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\softTest\\test_code\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.wrapCommandFn (D:\\softTest\\test_code\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\softTest\\test_code\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\softTest\\test_code\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at NavigationTest.openOraclePage (D:\\softTest\\test_code\\features\\testobjects\\/NavigationTest.js:5:5)\n                    at World.<anonymous> (D:\\softTest\\test_code\\features\\step-definitions\\/navigationSteps.js:5:3)",
+    "steps" : [ {
+      "name" : "Given User has opened Oracle login page",
+      "time" : {
+        "start" : 1645799688702,
+        "stop" : 1645799693985,
+        "duration" : 5283
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\".cb41create-btn\") still not displayed after 3000ms\n                    at D:\\softTest\\test_code\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at Element.wrapCommandFn (D:\\softTest\\test_code\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\softTest\\test_code\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\softTest\\test_code\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.wrapCommandFn (D:\\softTest\\test_code\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\softTest\\test_code\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\softTest\\test_code\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at NavigationTest.openOraclePage (D:\\softTest\\test_code\\features\\testobjects\\/NavigationTest.js:5:5)\n                    at World.<anonymous> (D:\\softTest\\test_code\\features\\step-definitions\\/navigationSteps.js:5:3)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3ad08ca3b587a087",
+        "name" : "Screenshot",
+        "source" : "3ad08ca3b587a087.png",
+        "type" : "image/png",
+        "size" : 5153
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Oracle sign up test"
+  }, {
+    "name" : "testClass",
+    "value" : "Oracle sign up test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Sign up a with a new user"
+  }, {
+    "name" : "package",
+    "value" : "Oracle sign up test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b16758963f900267.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

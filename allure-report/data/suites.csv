@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Feb 25 16:35:05 EET 2022","Fri Feb 25 16:35:23 EET 2022","17866","","Oracle sign up test","","Oracle sign up test","Sign up a with a new user","Sign up a with a new user",""
+"broken","Fri Feb 25 16:36:21 EET 2022","Fri Feb 25 16:36:28 EET 2022","6707","","Oracle Login test","","Oracle Login test","Invalid login with user","Invalid login with user",""

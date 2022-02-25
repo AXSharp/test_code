@@ -10,11 +10,11 @@ When("User presses sign in button", async function () {
 });
 
 When("User presses the create account button", async function () {
-  console.log("User presses the create account button");
+  await tests.navigationTest.pressCreatteAccBtn();
 });
 
 When("User presses sign up button", async function () {
-  console.log("User presses sign up button");
+  await tests.navigationTest.pressProceedBtn();
 });
 
 Then("User is redirected to Check your email page", async function () {

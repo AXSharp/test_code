@@ -1,0 +1,21 @@
+[ {
+  "uid" : "777c89317cb46c56",
+  "name" : "Sign up a with a new user",
+  "time" : {
+    "start" : 1645799705453,
+    "stop" : 1645799723319,
+    "duration" : 17866
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5d4cf798e547388",
+  "name" : "Invalid login with user",
+  "time" : {
+    "start" : 1645799781314,
+    "stop" : 1645799788021,
+    "duration" : 6707
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,47 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Oracle sign up test",
+    "children" : [ {
+      "name" : "Sign up a with a new user",
+      "uid" : "777c89317cb46c56",
+      "parentUid" : "5861c628df79ec554988ed3dc404a4b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645799705453,
+        "stop" : 1645799723319,
+        "duration" : 17866
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "5861c628df79ec554988ed3dc404a4b2"
+  }, {
+    "name" : "Oracle Login test",
+    "children" : [ {
+      "name" : "Invalid login with user",
+      "uid" : "d5d4cf798e547388",
+      "parentUid" : "c090ad00d75f435dce17972453748d4a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645799781314,
+        "stop" : 1645799788021,
+        "duration" : 6707
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "c090ad00d75f435dce17972453748d4a"
+  } ]
+}

@@ -11,6 +11,6 @@ Feature: Oracle Login test
     Examples:
       | email                | password   |
       | asadpfasdf@gmail.com | sadafdsx   |
-      | sdfdsfaf@gmail.com   | sdfd       |
-      | asdadaxvf@gmail.com  | hjfdtgbvdf |
+      # | sdfdsfaf@gmail.com   | sdfd       |
+      # | asdadaxvf@gmail.com  | hjfdtgbvdf |
 
