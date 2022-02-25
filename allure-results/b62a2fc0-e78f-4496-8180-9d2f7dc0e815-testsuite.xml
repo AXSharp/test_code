@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645802499893' stop='1645802503668'>
+    <name>Oracle Login test</name>
+    <title>Oracle Login test</title>
+    <test-cases>
+        <test-case start='1645802499920' status='broken' stop='1645802503665'>
+            <name>Invalid login with user</name>
+            <title>Invalid login with user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-97.0.1'/>
+            </parameters>
+            <steps>
+                <step start='1645802499923' status='broken' stop='1645802503665'>
+                    <name>Given User has opened Oracle login page</name>
+                    <title>Given User has opened Oracle login page</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='68d4ad02-b33b-46b2-953f-84b031b1a53b-attachment.png' type='image/png' size='21507'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: element (".cb41create-btn") still not displayed after 3000ms</message>
+                <stack-trace>Error: element (".cb41create-btn") still not displayed after 3000ms
+                    at D:\softTest\test_code\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at Element.wrapCommandFn (D:\softTest\test_code\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (D:\softTest\test_code\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (D:\softTest\test_code\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (D:\softTest\test_code\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (D:\softTest\test_code\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (D:\softTest\test_code\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at NavigationTest.openOraclePage (D:\softTest\test_code\features\testobjects\/NavigationTest.js:5:5)
+                    at World.&lt;anonymous> (D:\softTest\test_code\features\step-definitions\/navigationSteps.js:5:3)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
