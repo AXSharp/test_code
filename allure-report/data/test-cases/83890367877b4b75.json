@@ -1,0 +1,156 @@
+{
+  "uid" : "83890367877b4b75",
+  "name" : "Invalid login with user",
+  "fullName" : "Oracle Login test.Invalid login with user",
+  "historyId" : "5541e9c8bde4d9b087dd9b454c428cb7",
+  "time" : {
+    "start" : 1645801492153,
+    "stop" : 1645801498559,
+    "duration" : 6406
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TypeError: browser.getPerformanceScore is not a function",
+  "statusTrace" : "TypeError: browser.getPerformanceScore is not a function\n                    at LoginTest.lightHousePerformanceCheck (D:\\softTest\\test_code\\features\\testobjects\\/loginTest.js:20:33)\n                    at World.<anonymous> (D:\\softTest\\test_code\\features\\step-definitions\\/loginSteps.js:14:25)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: browser.getPerformanceScore is not a function",
+    "statusTrace" : "TypeError: browser.getPerformanceScore is not a function\n                    at LoginTest.lightHousePerformanceCheck (D:\\softTest\\test_code\\features\\testobjects\\/loginTest.js:20:33)\n                    at World.<anonymous> (D:\\softTest\\test_code\\features\\step-definitions\\/loginSteps.js:14:25)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ {
+      "name" : "Given User has opened Oracle login page",
+      "time" : {
+        "start" : 1645801492157,
+        "stop" : 1645801496224,
+        "duration" : 4067
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When User inputs asadpfasdf@gmail.com as the email",
+      "time" : {
+        "start" : 1645801496224,
+        "stop" : 1645801496349,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And User inputs sadafdsx as the password",
+      "time" : {
+        "start" : 1645801496349,
+        "stop" : 1645801496463,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And User presses sign in button",
+      "time" : {
+        "start" : 1645801496463,
+        "stop" : 1645801497723,
+        "duration" : 1260
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then User sees invalid credentials message",
+      "time" : {
+        "start" : 1645801497723,
+        "stop" : 1645801498559,
+        "duration" : 836
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: browser.getPerformanceScore is not a function\n                    at LoginTest.lightHousePerformanceCheck (D:\\softTest\\test_code\\features\\testobjects\\/loginTest.js:20:33)\n                    at World.<anonymous> (D:\\softTest\\test_code\\features\\step-definitions\\/loginSteps.js:14:25)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "79c799de35be54c7",
+        "name" : "Screenshot",
+        "source" : "79c799de35be54c7.png",
+        "type" : "image/png",
+        "size" : 403504
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Oracle Login test"
+  }, {
+    "name" : "testClass",
+    "value" : "Oracle Login test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Invalid login with user"
+  }, {
+    "name" : "package",
+    "value" : "Oracle Login test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "83890367877b4b75.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

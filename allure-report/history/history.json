@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e88983af70c29bb9",
+      "uid" : "291d9e6f7303b0c6",
       "status" : "passed",
       "time" : {
         "start" : 1645799705453,
@@ -21,19 +21,20 @@
   "5541e9c8bde4d9b087dd9b454c428cb7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9ce39d5077939f04",
-      "status" : "passed",
+      "uid" : "24a9c2839eb25415",
+      "status" : "broken",
+      "statusDetails" : "Error: element (\"//span[@class=\"error-show\"]/div[@class=\"cb41error\"]\") still not displayed after 1000ms",
       "time" : {
-        "start" : 1645801292995,
-        "stop" : 1645801299583,
-        "duration" : 6588
+        "start" : 1645801736868,
+        "stop" : 1645801743436,
+        "duration" : 6568
       }
     } ]
   }

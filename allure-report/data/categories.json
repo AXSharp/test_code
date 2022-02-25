@@ -1,5 +1,30 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Error: element (\"//span[@class=\"error-show\"]/div[@class=\"cb41error\"]\") still not displayed after 1000ms",
+      "children" : [ {
+        "name" : "Invalid login with user",
+        "uid" : "24a9c2839eb25415",
+        "parentUid" : "bf901a0b8a8d59912b3058b29a2f251e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645801736868,
+          "stop" : 1645801743436,
+          "duration" : 6568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-98.0.4758.102" ]
+      } ],
+      "uid" : "bf901a0b8a8d59912b3058b29a2f251e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

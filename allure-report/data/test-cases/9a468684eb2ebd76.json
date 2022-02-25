@@ -1,5 +1,5 @@
 {
-  "uid" : "9ce39d5077939f04",
+  "uid" : "9a468684eb2ebd76",
   "name" : "Invalid login with user",
   "fullName" : "Oracle Login test.Invalid login with user",
   "historyId" : "5541e9c8bde4d9b087dd9b454c428cb7",
@@ -15,8 +15,8 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 4,
-  "retriesStatusChange" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "passed",
@@ -31,8 +31,8 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "hasContent" : false,
       "stepsCount" : 0
     }, {
@@ -46,8 +46,8 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "hasContent" : false,
       "stepsCount" : 0
     }, {
@@ -61,8 +61,8 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "hasContent" : false,
       "stepsCount" : 0
     }, {
@@ -76,8 +76,8 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "hasContent" : false,
       "stepsCount" : 0
     }, {
@@ -91,15 +91,15 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "hasContent" : false,
       "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : true,
     "stepsCount" : 5
   },
@@ -134,50 +134,12 @@
     "value" : "chrome-98.0.4758.102"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "4b31865979d3a288",
-      "status" : "broken",
-      "statusDetails" : "LHError: NO_FCP",
-      "time" : {
-        "start" : 1645801208847,
-        "stop" : 1645801225027,
-        "duration" : 16180
-      }
-    }, {
-      "uid" : "a819b48cb64a4424",
-      "status" : "broken",
-      "statusDetails" : "Error: element (\"//span[@class=\"error-show\"]/div[@class=\"cb41error\"]\") still not displayed after 1000ms",
-      "time" : {
-        "start" : 1645800894707,
-        "stop" : 1645800901363,
-        "duration" : 6656
-      }
-    }, {
-      "uid" : "6705ad932d51d5b0",
-      "status" : "broken",
-      "statusDetails" : "Error: element (\"//span[@class=\"error-show\"]/div[@class=\"cb41error\"]\") still not displayed after 1000ms",
-      "time" : {
-        "start" : 1645800677320,
-        "stop" : 1645800683546,
-        "duration" : 6226
-      }
-    }, {
-      "uid" : "e05a5cbe31bea8e2",
-      "status" : "broken",
-      "statusDetails" : "Error: element (\"//span[@class=\"error-show\"]/div[@class=\"cb41error\"]\") still not displayed after 1000ms",
-      "time" : {
-        "start" : 1645799781314,
-        "stop" : 1645799788021,
-        "duration" : 6707
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9ce39d5077939f04.json",
+  "source" : "9a468684eb2ebd76.json",
   "parameterValues" : [ "chrome-98.0.4758.102" ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "a819b48cb64a4424",
+  "uid" : "8533c17e29a14ec9",
   "name" : "Invalid login with user",
   "fullName" : "Oracle Login test.Invalid login with user",
   "historyId" : "5541e9c8bde4d9b087dd9b454c428cb7",
   "time" : {
-    "start" : 1645800894707,
-    "stop" : 1645800901363,
-    "duration" : 6656
+    "start" : 1645800677320,
+    "stop" : 1645800683546,
+    "duration" : 6226
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,90 +27,90 @@
     "steps" : [ {
       "name" : "Given User has opened Oracle login page",
       "time" : {
-        "start" : 1645800894711,
-        "stop" : 1645800899035,
-        "duration" : 4324
+        "start" : 1645800677323,
+        "stop" : 1645800681511,
+        "duration" : 4188
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "hasContent" : false,
       "stepsCount" : 0
     }, {
       "name" : "When User inputs asadpfasdf@gmail.com as the email",
       "time" : {
-        "start" : 1645800899035,
-        "stop" : 1645800899167,
-        "duration" : 132
+        "start" : 1645800681511,
+        "stop" : 1645800681593,
+        "duration" : 82
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "hasContent" : false,
       "stepsCount" : 0
     }, {
       "name" : "And User inputs sadafdsx as the password",
       "time" : {
-        "start" : 1645800899167,
-        "stop" : 1645800899263,
-        "duration" : 96
+        "start" : 1645800681593,
+        "stop" : 1645800681668,
+        "duration" : 75
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "hasContent" : false,
       "stepsCount" : 0
     }, {
       "name" : "And User presses sign in button",
       "time" : {
-        "start" : 1645800899263,
-        "stop" : 1645800900011,
-        "duration" : 748
+        "start" : 1645800681668,
+        "stop" : 1645800682242,
+        "duration" : 574
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : false,
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "hasContent" : false,
       "stepsCount" : 0
     }, {
       "name" : "Then User sees invalid credentials message",
       "time" : {
-        "start" : 1645800900011,
-        "stop" : 1645800901363,
-        "duration" : 1352
+        "start" : 1645800682242,
+        "stop" : 1645800683546,
+        "duration" : 1304
       },
       "status" : "broken",
       "statusMessage" : "Error: element (\"//span[@class=\"error-show\"]/div[@class=\"cb41error\"]\") still not displayed after 1000ms\n                    at D:\\softTest\\test_code\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at Element.wrapCommandFn (D:\\softTest\\test_code\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\softTest\\test_code\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\softTest\\test_code\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.wrapCommandFn (D:\\softTest\\test_code\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at Element.elementErrorHandlerCallbackFn (D:\\softTest\\test_code\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (D:\\softTest\\test_code\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at LoginTest.assertInvalidCredentialsMessage (D:\\softTest\\test_code\\features\\testobjects\\/loginTest.js:11:5)\n                    at World.<anonymous> (D:\\softTest\\test_code\\features\\step-definitions\\/loginSteps.js:13:3)",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "663f3bbefa789329",
+        "uid" : "2f0695bb6fcbbe96",
         "name" : "Screenshot",
-        "source" : "663f3bbefa789329.png",
+        "source" : "2f0695bb6fcbbe96.png",
         "type" : "image/png",
-        "size" : 446960
+        "size" : 436584
       } ],
       "parameters" : [ ],
-      "shouldDisplayMessage" : true,
       "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
       "hasContent" : true,
       "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : true,
     "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
     "hasContent" : true,
     "stepsCount" : 5
   },
@@ -151,6 +151,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a819b48cb64a4424.json",
+  "source" : "8533c17e29a14ec9.json",
   "parameterValues" : [ "chrome-98.0.4758.102" ]
 }

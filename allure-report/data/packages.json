@@ -5,7 +5,7 @@
     "name" : "Oracle sign up test",
     "children" : [ {
       "name" : "Sign up a with a new user",
-      "uid" : "e88983af70c29bb9",
+      "uid" : "291d9e6f7303b0c6",
       "parentUid" : "250a1ccdf39c1867cae3a15134134553",
       "status" : "passed",
       "time" : {
@@ -26,19 +26,19 @@
     "name" : "Oracle Login test",
     "children" : [ {
       "name" : "Invalid login with user",
-      "uid" : "9ce39d5077939f04",
+      "uid" : "24a9c2839eb25415",
       "parentUid" : "246af84e603f2c70c45090604b409605",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1645801292995,
-        "stop" : 1645801299583,
-        "duration" : 6588
+        "start" : 1645801736868,
+        "stop" : 1645801743436,
+        "duration" : 6568
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 4,
+      "retriesCount" : 7,
       "retriesStatusChange" : true,
       "parameters" : [ "chrome-98.0.4758.102" ]
     } ],
