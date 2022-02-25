@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645801736847' stop='1645801743438'>
+    <name>Oracle Login test</name>
+    <title>Oracle Login test</title>
+    <test-cases>
+        <test-case start='1645801736868' status='broken' stop='1645801743436'>
+            <name>Invalid login with user</name>
+            <title>Invalid login with user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1645801736870' status='passed' stop='1645801741299'>
+                    <name>Given User has opened Oracle login page</name>
+                    <title>Given User has opened Oracle login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645801741299' status='passed' stop='1645801741420'>
+                    <name>When User inputs asadpfasdf@gmail.com as the email</name>
+                    <title>When User inputs asadpfasdf@gmail.com as the email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645801741420' status='passed' stop='1645801741554'>
+                    <name>And User inputs sadafdsx as the password</name>
+                    <title>And User inputs sadafdsx as the password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645801741555' status='passed' stop='1645801742133'>
+                    <name>And User presses sign in button</name>
+                    <title>And User presses sign in button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645801742133' status='broken' stop='1645801743436'>
+                    <name>Then User sees invalid credentials message</name>
+                    <title>Then User sees invalid credentials message</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8252ada3-f462-4132-966c-2be9d6737343-attachment.png' type='image/png' size='426141'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: element ("//span[@class="error-show"]/div[@class="cb41error"]") still not displayed after 1000ms</message>
+                <stack-trace>Error: element ("//span[@class="error-show"]/div[@class="cb41error"]") still not displayed after 1000ms
+                    at D:\softTest\test_code\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at Element.wrapCommandFn (D:\softTest\test_code\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (D:\softTest\test_code\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (D:\softTest\test_code\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (D:\softTest\test_code\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (D:\softTest\test_code\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (D:\softTest\test_code\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at LoginTest.assertInvalidCredentialsMessage (D:\softTest\test_code\features\testobjects\/loginTest.js:11:5)
+                    at World.&lt;anonymous> (D:\softTest\test_code\features\step-definitions\/loginSteps.js:13:3)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,156 @@
+{
+  "uid" : "4b31865979d3a288",
+  "name" : "Invalid login with user",
+  "fullName" : "Oracle Login test.Invalid login with user",
+  "historyId" : "5541e9c8bde4d9b087dd9b454c428cb7",
+  "time" : {
+    "start" : 1645801208847,
+    "stop" : 1645801225027,
+    "duration" : 16180
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "LHError: NO_FCP",
+  "statusTrace" : "LHError: NO_FCP\n                    at Function.createNoFirstContentfulPaintError (D:\\softTest\\test_code\\node_modules\\lighthouse\\lighthouse-core\\lib\\lh-trace-processor.js:42:12)\n                    at Function.computeNavigationTimingsForFrame (D:\\softTest\\test_code\\node_modules\\lighthouse\\lighthouse-core\\lib\\tracehouse\\trace-processor.js:856:18)\n                    at Function.processNavigation (D:\\softTest\\test_code\\node_modules\\lighthouse\\lighthouse-core\\lib\\tracehouse\\trace-processor.js:699:31)\n                    at Function.compute_ (D:\\softTest\\test_code\\node_modules\\lighthouse\\lighthouse-core\\computed\\processed-navigation.js:17:29)\n                    at Function.request (D:\\softTest\\test_code\\node_modules\\lighthouse\\lighthouse-core\\computed\\computed-artifact.js:44:29)\n                    at Function.compute_ (D:\\softTest\\test_code\\node_modules\\lighthouse\\lighthouse-core\\computed\\metrics\\metric.js:73:45)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "LHError: NO_FCP",
+    "statusTrace" : "LHError: NO_FCP\n                    at Function.createNoFirstContentfulPaintError (D:\\softTest\\test_code\\node_modules\\lighthouse\\lighthouse-core\\lib\\lh-trace-processor.js:42:12)\n                    at Function.computeNavigationTimingsForFrame (D:\\softTest\\test_code\\node_modules\\lighthouse\\lighthouse-core\\lib\\tracehouse\\trace-processor.js:856:18)\n                    at Function.processNavigation (D:\\softTest\\test_code\\node_modules\\lighthouse\\lighthouse-core\\lib\\tracehouse\\trace-processor.js:699:31)\n                    at Function.compute_ (D:\\softTest\\test_code\\node_modules\\lighthouse\\lighthouse-core\\computed\\processed-navigation.js:17:29)\n                    at Function.request (D:\\softTest\\test_code\\node_modules\\lighthouse\\lighthouse-core\\computed\\computed-artifact.js:44:29)\n                    at Function.compute_ (D:\\softTest\\test_code\\node_modules\\lighthouse\\lighthouse-core\\computed\\metrics\\metric.js:73:45)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ {
+      "name" : "Given User has opened Oracle login page",
+      "time" : {
+        "start" : 1645801208850,
+        "stop" : 1645801212786,
+        "duration" : 3936
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When User inputs asadpfasdf@gmail.com as the email",
+      "time" : {
+        "start" : 1645801212786,
+        "stop" : 1645801212922,
+        "duration" : 136
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And User inputs sadafdsx as the password",
+      "time" : {
+        "start" : 1645801212922,
+        "stop" : 1645801213033,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And User presses sign in button",
+      "time" : {
+        "start" : 1645801213033,
+        "stop" : 1645801224642,
+        "duration" : 11609
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then User sees invalid credentials message",
+      "time" : {
+        "start" : 1645801224643,
+        "stop" : 1645801225027,
+        "duration" : 384
+      },
+      "status" : "broken",
+      "statusMessage" : "LHError: NO_FCP\n                    at Function.createNoFirstContentfulPaintError (D:\\softTest\\test_code\\node_modules\\lighthouse\\lighthouse-core\\lib\\lh-trace-processor.js:42:12)\n                    at Function.computeNavigationTimingsForFrame (D:\\softTest\\test_code\\node_modules\\lighthouse\\lighthouse-core\\lib\\tracehouse\\trace-processor.js:856:18)\n                    at Function.processNavigation (D:\\softTest\\test_code\\node_modules\\lighthouse\\lighthouse-core\\lib\\tracehouse\\trace-processor.js:699:31)\n                    at Function.compute_ (D:\\softTest\\test_code\\node_modules\\lighthouse\\lighthouse-core\\computed\\processed-navigation.js:17:29)\n                    at Function.request (D:\\softTest\\test_code\\node_modules\\lighthouse\\lighthouse-core\\computed\\computed-artifact.js:44:29)\n                    at Function.compute_ (D:\\softTest\\test_code\\node_modules\\lighthouse\\lighthouse-core\\computed\\metrics\\metric.js:73:45)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c459c34bf6ad5f9c",
+        "name" : "Screenshot",
+        "source" : "c459c34bf6ad5f9c.png",
+        "type" : "image/png",
+        "size" : 371368
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Oracle Login test"
+  }, {
+    "name" : "testClass",
+    "value" : "Oracle Login test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Invalid login with user"
+  }, {
+    "name" : "package",
+    "value" : "Oracle Login test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4b31865979d3a288.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

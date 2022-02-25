@@ -11,4 +11,5 @@ When("User inputs {word} as the password", async function (password) {
 
 Then("User sees invalid credentials message", async function () {
   await tests.logintest.assertInvalidCredentialsMessage();
+  //await tests.logintest.lightHousePerformanceCheck();
 });

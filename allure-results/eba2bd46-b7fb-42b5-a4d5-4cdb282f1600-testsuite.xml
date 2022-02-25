@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645801538026' stop='1645801553927'>
+    <name>Oracle Login test</name>
+    <title>Oracle Login test</title>
+    <test-cases>
+        <test-case start='1645801538051' status='passed' stop='1645801553927'>
+            <name>Invalid login with user</name>
+            <title>Invalid login with user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1645801538055' status='passed' stop='1645801541663'>
+                    <name>Given User has opened Oracle login page</name>
+                    <title>Given User has opened Oracle login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645801541663' status='passed' stop='1645801541784'>
+                    <name>When User inputs asadpfasdf@gmail.com as the email</name>
+                    <title>When User inputs asadpfasdf@gmail.com as the email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645801541784' status='passed' stop='1645801541910'>
+                    <name>And User inputs sadafdsx as the password</name>
+                    <title>And User inputs sadafdsx as the password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645801541911' status='passed' stop='1645801553870'>
+                    <name>And User presses sign in button</name>
+                    <title>And User presses sign in button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1645801553870' status='passed' stop='1645801553926'>
+                    <name>Then User sees invalid credentials message</name>
+                    <title>Then User sees invalid credentials message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

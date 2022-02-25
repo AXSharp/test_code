@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "777c89317cb46c56",
+      "uid" : "e88983af70c29bb9",
       "status" : "passed",
       "time" : {
         "start" : 1645799705453,
@@ -21,20 +21,19 @@
   "5541e9c8bde4d9b087dd9b454c428cb7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d5d4cf798e547388",
-      "status" : "broken",
-      "statusDetails" : "Error: element (\"//span[@class=\"error-show\"]/div[@class=\"cb41error\"]\") still not displayed after 1000ms",
+      "uid" : "9ce39d5077939f04",
+      "status" : "passed",
       "time" : {
-        "start" : 1645799781314,
-        "stop" : 1645799788021,
-        "duration" : 6707
+        "start" : 1645801292995,
+        "stop" : 1645801299583,
+        "duration" : 6588
       }
     } ]
   }

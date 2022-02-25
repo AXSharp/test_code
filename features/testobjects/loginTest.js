@@ -12,7 +12,12 @@ export class LoginTest {
       timeout: 1000,
     });
     expect(
-      await pages.BasePage.getInvalidCredentialMessage().getText())
-      .toEqual("Invalid username and/or password.");
+      await pages.BasePage.getInvalidCredentialMessage().getText()
+    ).toEqual("Invalid username and/or password.");
   }
+
+  // async lightHousePerformanceCheck() {
+  //   const score = await browser.getPerformanceScore();
+  //   cosnsole.log(`The score is ${score}`);
+  // }
 }

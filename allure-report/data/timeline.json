@@ -2,10 +2,99 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Invalid login with user",
+      "uid" : "9ce39d5077939f04",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645801292995,
+        "stop" : 1645801299583,
+        "duration" : 6588
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Invalid login with user",
+      "uid" : "a819b48cb64a4424",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645800894707,
+        "stop" : 1645800901363,
+        "duration" : 6656
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Invalid login with user",
+      "uid" : "6705ad932d51d5b0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645800677320,
+        "stop" : 1645800683546,
+        "duration" : 6226
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Invalid login with user",
+      "uid" : "e05a5cbe31bea8e2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645799781314,
+        "stop" : 1645799788021,
+        "duration" : 6707
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "Invalid login with user",
+      "uid" : "4b31865979d3a288",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645801208847,
+        "stop" : 1645801225027,
+        "duration" : 16180
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
     "name" : "0-1",
     "children" : [ {
       "name" : "Sign up a with a new user",
-      "uid" : "777c89317cb46c56",
+      "uid" : "e88983af70c29bb9",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
@@ -22,7 +111,7 @@
       "parameters" : [ "chrome-98.0.4758.102" ]
     }, {
       "name" : "Sign up a with a new user",
-      "uid" : "b16758963f900267",
+      "uid" : "5515c01285d67ff1",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "broken",
       "time" : {
@@ -39,26 +128,5 @@
       "parameters" : [ "chrome-98.0.4758.102" ]
     } ],
     "uid" : "27fa874cadc1574e37a07abb440963bd"
-  }, {
-    "name" : "0-0",
-    "children" : [ {
-      "name" : "Invalid login with user",
-      "uid" : "d5d4cf798e547388",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1645799781314,
-        "stop" : 1645799788021,
-        "duration" : 6707
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.102" ]
-    } ],
-    "uid" : "516fe00eea05ad99e936fa729b55eff4"
   } ]
 }
